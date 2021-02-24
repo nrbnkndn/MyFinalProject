@@ -25,5 +25,6 @@ namespace Business.Abstract
 
         //void Add(Product product);
         IResult Add(Product product); //Artık void olan her yerde IResult kullanacağız. WEbAPI dersi. başarılı ya da başarısız olduğunun dönmesi için void yerine ekledik. void yapsak bir şey dönmeyecek sadece ekleme işlemini yapacak.
+        IResult Update(Product product); 
     }
 }
